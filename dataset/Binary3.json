@@ -1,0 +1,23 @@
+{
+	"name": "Binary3",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage_avancado",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "advanced"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "5m-Sales-Records.csv",
+				"folderPath": "2021/JANEIRO/28",
+				"fileSystem": "raw"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

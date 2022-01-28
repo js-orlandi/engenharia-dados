@@ -1,0 +1,21 @@
+{
+	"name": "delete_zip_local",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "FileServer1",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "intermediary"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation",
+				"fileName": "5m-Sales-Records.zip"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

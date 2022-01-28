@@ -1,0 +1,9 @@
+{
+	"name": "adf-engenharia01",
+	"location": "southcentralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "631c8a35-b789-4fe8-a8f1-966b9316b512",
+		"tenantId": "cf36141c-ddd7-45a7-b073-111f66d0b30c"
+	}
+}
