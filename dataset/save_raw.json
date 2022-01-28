@@ -1,5 +1,5 @@
 {
-	"name": "Binary3",
+	"name": "save_raw",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage_avancado",

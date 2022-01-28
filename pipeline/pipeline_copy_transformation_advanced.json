@@ -35,13 +35,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "Binary1",
+						"referenceName": "CopyFile_http",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "Binary2",
+						"referenceName": "Save_landing",
 						"type": "DatasetReference"
 					}
 				]
@@ -86,13 +86,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "Binary2",
+						"referenceName": "Save_landing",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "Binary3",
+						"referenceName": "save_raw",
 						"type": "DatasetReference"
 					}
 				]

@@ -1,5 +1,5 @@
 {
-	"name": "Binary2",
+	"name": "Save_landing",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage_avancado",

@@ -1,5 +1,5 @@
 {
-	"name": "Binary1",
+	"name": "CopyFile_http",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "HttpServer1",
