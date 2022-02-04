@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-engenharia01"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage_avancado_accountKey": {
+			"value": ""
+		},
+		"FileServer1_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://stengenharia.dfs.core.windows.net"
+		},
+		"AzureDataLakeStorage_avancado_properties_typeProperties_url": {
+			"value": "https://stengenharia2.dfs.core.windows.net"
+		},
+		"FileServer1_properties_typeProperties_host": {
+			"value": "C:\\Users\\juliano\\Downloads\\5m-Sales-Records"
+		},
+		"FileServer1_properties_typeProperties_userId": {
+			"value": "juliano"
+		},
+		"HttpServer1_properties_typeProperties_url": {
+			"value": "https://eforexcel.com/wp/wp-content/uploads/2020/09/5m-Sales-Records.zip   "
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
